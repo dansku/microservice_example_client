@@ -10,7 +10,7 @@ func TestParsingNumberFunction(t *testing.T) {
 	expected := []float32{10.2,19,31.3}
 	actual := ParseNumbers(numbersAsString)
   
-	for i, _ := range actual {
+	for i := range actual {
 	  if actual[i] != expected[i] {
 		  
 		  t.Errorf("Expected: %v but got %v", expected, actual)
@@ -25,7 +25,7 @@ func TestParsingNumberFunctionWithString(t *testing.T) {
 	expected := []float32{19,31.3}
 	actual := ParseNumbers(numbersAsString)
   
-	for i, _ := range actual {
+	for i := range actual {
 	  if actual[i] != expected[i] {
 		  
 		  t.Errorf("Expected: %v but got %v", expected, actual)
@@ -40,7 +40,7 @@ func TestParsingNumberFunctionWithNegative(t *testing.T) {
 	expected := []float32{-20,19,31.3}
 	actual := ParseNumbers(numbersAsString)
   
-	for i, _ := range actual {
+	for i := range actual {
 	  if actual[i] != expected[i] {
 		  
 		  t.Errorf("Expected: %v but got %v", expected, actual)
