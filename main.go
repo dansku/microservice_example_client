@@ -71,10 +71,6 @@ func main() {
 
 }
 
-func SubmitValuesToServer(){
-
-}
-
 // ParseNumbers gets the input numbers as a string comma separated and return a slice of float32 items
 func ParseNumbers(input string) []float32 {
 
