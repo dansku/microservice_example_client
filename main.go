@@ -8,7 +8,7 @@ import (
 	"strings"
 	"log"
 
-	pb "github.com/dansku/mserv/srv/proto/calculate4"
+	pb "github.com/dansku/microservice_example_server/proto/calculate4"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 )
