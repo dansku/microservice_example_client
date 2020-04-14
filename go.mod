@@ -1,6 +1,6 @@
 module github.com/dansku/microservice_example_client
 
-exclude github.com/dansku/microservice_example_server/proto/calculate5
+exclude github.com/dansku/microservice_example_server/proto/calculate5 v0.9.1
 
 go 1.14
 
