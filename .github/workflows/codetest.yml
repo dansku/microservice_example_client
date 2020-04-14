@@ -1,7 +1,8 @@
-name: Build and Test
+name: Code test
 on: [push]
 
-test:
+jobs:
+  test:
     name: Test
     runs-on: ubuntu-latest
     steps:
